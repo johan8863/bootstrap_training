@@ -1,0 +1,7 @@
+section {
+    /*
+    display: flex is the starting point when a container is meant
+    to be treated with the flexbox model 
+    */
+    display: flex;
+}
