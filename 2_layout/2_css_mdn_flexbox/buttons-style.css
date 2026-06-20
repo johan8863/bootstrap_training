@@ -14,4 +14,21 @@ button {
   width: 15%;
 }
 /* flexbox here */
-
+div {
+    display: flex;
+    /* 
+    Vertical alignment, most used values are
+    center
+    start
+    end
+    */
+    align-items: center;
+    /* 
+    Horizontal alignment, most used values are
+    space-between
+    space-around
+    start
+    end
+    */
+    justify-content: flex-end;
+}
