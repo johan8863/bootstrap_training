@@ -13,4 +13,15 @@ section {
     }
     */
     display: flex;
+    /* 
+    the flex-direction: property sets the direction of the main axis, defaults to row
+    to display hrizontally in the direction of your default browser language which in 
+    most cases is left to right. Available values are:
+    
+    row
+    column
+    row-reverse
+    column-reverse
+    */
+    /* flex-direction: column; */
 }
