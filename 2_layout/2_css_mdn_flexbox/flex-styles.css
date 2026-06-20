@@ -1,3 +1,4 @@
+/* flex container properties */
 section {
     /*
     display: flex is the starting point when a container is meant
@@ -35,4 +36,20 @@ section {
     can combine the values previously exposed
     */
     flex-flow: row wrap;
+}
+
+/* flex items properties */
+article {
+    /* 
+    The flex property sets a proportional unitless value for items
+    in this case all items will share the same one proportional size
+    */
+    flex: 1;
+}
+
+article:nth-of-type(3) {
+    /* 
+    In this case this item will be twice the value of the rest od the items.
+    */
+    flex: 2;
 }
