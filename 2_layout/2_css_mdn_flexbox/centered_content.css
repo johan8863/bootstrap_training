@@ -1,0 +1,32 @@
+/* centered content flex example */
+
+/* 
+Once you understand the flexible condition of a container and
+it items and the available alignment properties, centering 
+an item is as simple as follows
+*/
+
+/* general css properties */
+
+div {
+    border: 1px solid beige;
+}
+
+.flex-container {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+/* flex properties */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
