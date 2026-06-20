@@ -24,4 +24,10 @@ section {
     column-reverse
     */
     /* flex-direction: column; */
+    /* 
+    Sometimes flex items don't fit into the flex container default or max-width,
+    here is where the flex-wrap: property comes in handy, every item wider than the available
+    space will come to the next line.
+    */
+    flex-wrap: wrap;
 }

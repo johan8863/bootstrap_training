@@ -23,4 +23,5 @@ article {
     padding: 10px;
     margin: 10px;
     background: aqua;
+    min-width: 400px;
 }
