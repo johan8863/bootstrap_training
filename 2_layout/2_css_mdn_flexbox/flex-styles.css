@@ -29,5 +29,10 @@ section {
     here is where the flex-wrap: property comes in handy, every item wider than the available
     space will come to the next line.
     */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* 
+    There's a shorthand property to merge flex-direction and flex-wrap, the flex-flow property
+    can combine the values previously exposed
+    */
+    flex-flow: row wrap;
 }
