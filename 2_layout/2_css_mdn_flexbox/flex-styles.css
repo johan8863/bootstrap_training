@@ -1,7 +1,16 @@
 section {
     /*
     display: flex is the starting point when a container is meant
-    to be treated with the flexbox model 
+    to be treated with the flexbox model. This property converts the target
+    container into a block item but its children will become flex container    
+    felexible aligned within. If the container needs to be an inline element
+    you can set the display property to 'inline flex' with a single-value
+    fallback property in case your browser doesn't support it:
+
+    .container {
+        display: inline flex;
+        display: inline-flex
+    }
     */
     display: flex;
 }
