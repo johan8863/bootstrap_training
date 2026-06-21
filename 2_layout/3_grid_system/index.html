@@ -7,6 +7,32 @@
   <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
+  <!--
+    just to mention again, the container class is
+    REQUIRED when using the grid system
+  -->
+  <div class="container text-center my-4">
+    <div class="row mb-4">
+      <div class="col border border-1">Column</div>
+      <div class="col border border-1">Column</div>
+      <div class="col border border-1">Column</div>
+    </div>
+  </div>
+  <div class="container mb-4">
+    <h2>Equal-width</h2>
+    <p>If <code>.col</code> class is the only specified, all inner columns will have the same size across all devices</p>
+  </div>
+  <div class="container text-center mb-4">
+    <div class="row mb-4">
+      <div class="col border border-1">1 of 2</div>
+      <div class="col border border-1">2 of 2</div>
+    </div>
+    <div class="row mb-4">
+      <div class="col border border-1">1 of 3</div>
+      <div class="col border border-1">2 of 3</div>
+      <div class="col border border-1">3 of 3</div>
+    </div>
+  </div>
   <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
