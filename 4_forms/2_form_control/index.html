@@ -10,6 +10,33 @@
     />
 </head>
 <body>
+  <div class="container py-5">
+    <div class="row row-cols-1">
+      <div class="col mx-auto">
+        <h2>Form controls</h2>
+        <!-- email control -->
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control">
+        </div>
+        <!-- textarea -->
+        <div class="mb-3">
+          <label for="txa" class="form-label">Bootstrap Textarea</label>
+          <textarea name="txa" id="txa" class="form-control"></textarea>
+        </div>
+      </div>
+      <div class="col mx-auto">
+        <h2>Sizing</h2>
+        <input type="text" class="form-control-lg" placeholder=".form-control-lg">
+        <input type="text" class="form-control" placeholder="default">
+        <input type="text" class="form-control-sm" placeholder=".form-control-sm">
+      </div>
+    </div>
+  </div>
   <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
