@@ -16,11 +16,12 @@
     <div class="row flex-column">
       <div class="col-4 mx-auto">
         <h2>Checks</h2>
-        <div class="mb-1">
+        <!-- Always wrap form check inputs within a .form-check class -->
+        <div class="form-check mb-1">
           <input type="checkbox" name="def" id="def" class="form-check-input">
           <label for="def" class="form-check-label">Default checkbox</label>
         </div>
-        <div class="mb-1">
+        <div class="form-check mb-1">
           <input type="checkbox" name="chk" id="chk" class="form-check-input" checked>
           <label for="chk" class="form-check-label">Checked checkbox</label>
         </div>
@@ -30,11 +31,11 @@
     <div class="row flex-column">
       <div class="col-4 mx-auto">
         <h3>Disabled</h3>
-        <div class="form-check">
+        <div class="form-check mb-1">
           <input type="checkbox" name="" id="" class="form-check-input" disabled>
           <label for="">Default disabled checkbox</label>
         </div>
-        <div class="form-check">
+        <div class="form-check mb-1">
           <input type="checkbox" name="" id="" class="form-check-input" disabled checked>
           <label for="">Disabled checked checkbox</label>
         </div>
